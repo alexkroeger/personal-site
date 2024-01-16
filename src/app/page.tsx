@@ -8,6 +8,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -158,6 +159,7 @@ export default function Page() {
             );
           })}
         </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
@@ -178,6 +180,24 @@ export default function Page() {
                   description={project.description}
                   tags={project.techStack}
                   link={"link" in project ? project.link.href : undefined}
+                />
+              );
+            })}
+          </div>
+        </Section>
+
+        <Section id="publications" className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Publications</h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+            {RESUME_DATA.publications.map((publication) => {
+              return (
+                <ProjectCard
+                  key={publication.title}
+                  title={publication.title}
+                  description={publication.publication}
+                  tags={publication.techStack}
+                  link={"link" in publication ? publication.link.href : undefined}
+                  date={"date" in publication ? publication.date : undefined}
                 />
               );
             })}
