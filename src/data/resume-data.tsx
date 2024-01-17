@@ -115,7 +115,7 @@ export const RESUME_DATA = {
         "EVM",
         "Technical Writing",
       ],
-      description: "Updated the Ethereum Yellow Paper for the London, Arrow Glacier, Gray Glacier, and Paris.",
+      description: "Updated the Ethereum Yellow Paper for the London, Arrow Glacier, Gray Glacier, and Paris upgrades.",
       link: {
         label: "ETH Yellow Paper",
         href: "https://github.com/ethereum/yellowpaper",
