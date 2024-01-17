@@ -67,6 +67,18 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Birds of SF",
+      techStack: [
+        "Side Project",
+        "Node.js",
+      ],
+      description: "An automated Twitter feed of rare bird sightings in SF.",
+      link: {
+        label: "birds of SF",
+        href: "https://x.com/birdsofSF",
+      },
+    },
+    {
       title: "Updating the Ethereum Yellow Paper",
       techStack: [
         "Side Project",
