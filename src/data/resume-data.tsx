@@ -55,6 +55,36 @@ export const RESUME_DATA = {
       description:
         "Built the first backend services for Phantom to improve app performance and unlock new features.",
     },
+    {
+      company: "a16z",
+      link: "https://a16z.com/",
+      badges: [],
+      title: "Protocol Specialist",
+      start: "Aug 2021",
+      end: "Nov 2021",
+      description:
+        "Engaged with governance for crypto protocols in a16z’s portfolio, including Uniswap and Compound.",
+    },
+    {
+      company: "0x",
+      link: "https://0x.org/",
+      badges: [],
+      title: "Software Engineer, Data Scientist",
+      start: "May 2019",
+      end: "Aug 2021",
+      description:
+        "Built tools for professional market makers to provide liquidity to 0x API users.",
+    },
+    {
+      company: "Coinbase",
+      link: "https://www.coinbase.com",
+      badges: [],
+      title: "Data Scientist",
+      start: "Feb 2018",
+      end: "Apr 2019",
+      description:
+        "Supported Coinbase Pro (the exchange product) by informing product decisions with data.",
+    },
   ],
   skills: [
     "JavaScript",
