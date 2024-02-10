@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   about:
     "Backend Engineer",
   summary:
-    "I'm a software engineer working in the crypto industry. In my free time you can find me swimming in the San Francisco Bay, birding, or playing chess.",
+    "I'm a software engineer working at Circle. In my free time you can find me swimming in the San Francisco Bay, birding, or playing chess.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13876978?v=4",
   personalWebsiteUrl: "https://alexkroeger.com",
   contact: {
@@ -44,6 +44,16 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Circle",
+      link: "https://www.circle.com/",
+      badges: [],
+      title: "Senior Software Engineer",
+      start: "Feb 2023",
+      end: "Present",
+      description:
+        "Software engineer on the special projects team.",
+    },
     {
       company: "Phantom",
       link: "https://phantom.app",
