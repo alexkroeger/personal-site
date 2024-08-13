@@ -132,6 +132,17 @@ export const RESUME_DATA = {
       },
     },
   ],
+  swimming: [
+    {
+      name: "Dolphin Club Pier 15 Swim",
+      date: "June 29, 2024",
+    },
+    {
+      name: "Sharkfest Alcatraz Swim",
+      date: "August 26, 2023",
+      time: "42:24",
+    },
+  ],
   publications: [
     {
       title: "A New Era of Content Publishing and Licensing on the Blockchain",

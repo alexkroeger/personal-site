@@ -203,6 +203,26 @@ export default function Page() {
             })}
           </div>
         </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Swimming</h2>
+          {RESUME_DATA.swimming.map((swim) => {
+            return (
+              <Card key={swim.name}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {swim.name}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {swim.date}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2">{swim.time}</CardContent>
+              </Card>
+            );
+          })}
+        </Section>
       </section>
 
       <CommandMenu
