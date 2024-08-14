@@ -134,9 +134,9 @@ export const RESUME_DATA = {
   ],
   swimming: [
     {
-      name: "Dolphin Club Pier 15 Swim",
+      name: "Pier 15 to Dolphin Club",
       date: "June 29, 2024",
-      time: "",
+      time: "37:44 (self-timed)",
     },
     {
       name: "Sharkfest Alcatraz Swim",
@@ -145,6 +145,16 @@ export const RESUME_DATA = {
     },
   ],
   publications: [
+    {
+      title: "TXT2TXN: Using AI (LLMs) for Intent-Based Applications",
+      publication: "Circle Research",
+      date: "August 8, 2024",
+      techStack: [],
+      link: {
+        label: "Article",
+        href: "https://www.circle.com/blog/txt2txn-using-ai-llms-for-internet-based-applications",
+      },
+    },
     {
       title: "A New Era of Content Publishing and Licensing on the Blockchain",
       publication: "Bitcoin Magazine",
