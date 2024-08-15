@@ -49,7 +49,7 @@ export const RESUME_DATA = {
       link: "https://www.circle.com/",
       badges: [],
       title: "Senior Software Engineer",
-      start: "Feb 2023",
+      start: "Feb 2024",
       end: "Present",
       description:
         "Software engineer on the special projects team.",
@@ -142,6 +142,11 @@ export const RESUME_DATA = {
       name: "Sharkfest Alcatraz Swim",
       date: "August 26, 2023",
       time: "42:24",
+    },
+    {
+      name: "Central Oregon Masters Eel Lake 1500m",
+      date: "August 12, 2023",
+      time: "26:05.8",
     },
   ],
   publications: [
