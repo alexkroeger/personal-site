@@ -134,6 +134,11 @@ export const RESUME_DATA = {
   ],
   swimming: [
     {
+      name: "Dolphin Club Golden Gate Swim",
+      date: "September 21, 2024",
+      time: "25:39",
+    },
+    {
       name: "Pier 15 to Dolphin Club",
       date: "June 29, 2024",
       time: "37:44 (self-timed)",
