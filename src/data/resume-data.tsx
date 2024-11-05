@@ -136,7 +136,7 @@ export const RESUME_DATA = {
     {
       name: "Dolphin Club Alcatraz Swim",
       date: "October 26, 2024",
-      time: ""
+      time: "35:51"
     },
     {
       name: "Dolphin Club Golden Gate Swim",
