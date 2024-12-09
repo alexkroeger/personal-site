@@ -95,6 +95,26 @@ export const RESUME_DATA = {
       description:
         "Supported Coinbase Pro (the exchange product) by informing product decisions with data.",
     },
+    {
+      company: "Analysis Group",
+      link: "https://www.analysisgroup.com/",
+      badges: [],
+      title: "Analyst",
+      start: "Feb 2017",
+      end: "Feb 2018",
+      description:
+        "Economic consulting.",
+    },
+    {
+      company: "Federal Reserve Bank of New York",
+      link: "https://www.newyorkfed.org/",
+      badges: [],
+      title: "Research Analyst",
+      start: "Jun 2015",
+      end: "Jan 2017",
+      description:
+        "Research group.",
+    },
   ],
   skills: [
     "JavaScript",
@@ -160,6 +180,16 @@ export const RESUME_DATA = {
     },
   ],
   publications: [
+    {
+      title: "Temporary ERC-20 approvals: A cheaper & safer way to do DeFi",
+      publication: "Circle Research",
+      date: "October 17, 2024",
+      techStack: [],
+      link: {
+        label: "Article",
+        href: "https://www.circle.com/blog/temporary-erc-20-approvals-a-cheaper-and-safer-way-to-do-defi",
+      },
+    },
     {
       title: "TXT2TXN: Using AI (LLMs) for Intent-Based Applications",
       publication: "Circle Research",
