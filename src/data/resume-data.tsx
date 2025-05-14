@@ -1,5 +1,12 @@
 import {
-  PhantomLogo
+  PhantomLogo,
+  CircleLogo,
+  A16zLogo,
+  AnalysisGroupLogo,
+  CoinbaseLogo,
+  DolphinClubLogo,
+  ZeroXLogo,
+  FedLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -48,6 +55,7 @@ export const RESUME_DATA = {
       company: "Circle",
       link: "https://www.circle.com/",
       badges: [],
+      logo: CircleLogo,
       title: "Senior Software Engineer",
       start: "Feb 2024",
       end: "Present",
@@ -69,16 +77,18 @@ export const RESUME_DATA = {
       company: "a16z",
       link: "https://a16z.com/",
       badges: [],
+      logo: A16zLogo,
       title: "Protocol Specialist",
       start: "Aug 2021",
       end: "Nov 2021",
       description:
-        "Engaged with governance for crypto protocols in a16z’s portfolio, including Uniswap and Compound.",
+        "Engaged with governance for crypto protocols in a16z's portfolio, including Uniswap and Compound.",
     },
     {
       company: "0x",
       link: "https://0x.org/",
       badges: [],
+      logo: ZeroXLogo,
       title: "Software Engineer, Data Scientist",
       start: "May 2019",
       end: "Aug 2021",
@@ -89,6 +99,7 @@ export const RESUME_DATA = {
       company: "Coinbase",
       link: "https://www.coinbase.com",
       badges: [],
+      logo: CoinbaseLogo,
       title: "Data Scientist",
       start: "Feb 2018",
       end: "Apr 2019",
@@ -99,6 +110,7 @@ export const RESUME_DATA = {
       company: "Analysis Group",
       link: "https://www.analysisgroup.com/",
       badges: [],
+      logo: AnalysisGroupLogo,
       title: "Analyst",
       start: "Feb 2017",
       end: "Feb 2018",
@@ -109,6 +121,7 @@ export const RESUME_DATA = {
       company: "Federal Reserve Bank of New York",
       link: "https://www.newyorkfed.org/",
       badges: [],
+      logo: FedLogo,
       title: "Research Analyst",
       start: "Jun 2015",
       end: "Jan 2017",
@@ -156,30 +169,57 @@ export const RESUME_DATA = {
     {
       name: "Dolphin Club Alcatraz Swim",
       date: "October 26, 2024",
-      time: "35:51"
+      time: "35:51",
+      link: "https://dolphinclub.org/2024/2024-alcatraz-swim/"
     },
     {
       name: "Dolphin Club Golden Gate Bridge Swim",
       date: "September 21, 2024",
       time: "25:39",
+      link: "https://dolphinclub.org/2024/2024-joe-bruno-golden-gate/"
     },
     {
       name: "Pier 15 to Dolphin Club",
       date: "June 29, 2024",
-      time: "37:44 (self-timed)",
+      time: "37:44 (self-timed)"
     },
     {
       name: "Sharkfest Alcatraz Swim",
       date: "August 26, 2023",
       time: "42:24",
+      link: "https://www.itsyourrace.com/Results.aspx?amax=199&amin=0&eid=122546&g=A&id=8078&y=2023"
     },
     {
       name: "Central Oregon Masters Eel Lake 1500m",
       date: "August 12, 2023",
       time: "26:05.8",
+      link: "https://www.comaswim.org/c/FE7EE8F/file/Results/230812%20Complete%20Eel%20Lake%20Results%20FINAL.pdf"
+    },
+  ],
+  volunteering: [
+    {
+      organization: "Dolphin Club",
+      link: "https://dolphinclub.org",
+      badges: [],
+      logo: DolphinClubLogo,
+      title: "Swim Commissioner",
+      start: "Dec 2024",
+      end: "Present",
+      description:
+        "Organize open water swimming events for club members in the San Francisco Bay.",
     },
   ],
   publications: [
+    {
+      title: "Refund Protocol: Non-Custodial Dispute Resolution for Stablecoin Payments",
+      publication: "Circle Research",
+      date: "April 17, 2025",
+      techStack: [],
+      link: {
+        label: "Article",
+        href: "https://www.circle.com/blog/refund-protocol-non-custodial-dispute-resolution-for-stablecoin-payments",
+      },
+    },
     {
       title: "Temporary ERC-20 approvals: A cheaper & safer way to do DeFi",
       publication: "Circle Research",

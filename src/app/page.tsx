@@ -8,7 +8,6 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
-import Link from "next/link"
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -106,34 +105,100 @@ export default function Page() {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
-                        {work.company}
-                      </a>
+                    <div className="flex items-center gap-x-2">
+                      {('logo' in work) && (
+                        <div className="flex h-8 w-8 items-center justify-center">
+                          <img
+                            src={(work as any).logo.src}
+                            alt={`${work.company} logo`}
+                            className="max-h-full max-w-full"
+                          />
+                        </div>
+                      )}
+                      <div>
+                        <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                          <a className="hover:underline" href={work.link}>
+                            {work.company}
+                          </a>
 
-                      <span className="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
-                      </span>
-                    </h3>
+                          <span className="inline-flex gap-x-1">
+                            {work.badges.map((badge) => (
+                              <Badge
+                                variant="secondary"
+                                className="align-middle text-xs"
+                                key={badge}
+                              >
+                                {badge}
+                              </Badge>
+                            ))}
+                          </span>
+                        </h3>
+                        <h4 className="font-mono text-sm leading-none mt-1">
+                          {work.title}
+                        </h4>
+                      </div>
+                    </div>
                     <div className="text-sm tabular-nums text-gray-500">
                       {work.start} - {work.end}
                     </div>
                   </div>
-
-                  <h4 className="font-mono text-sm leading-none">
-                    {work.title}
-                  </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
                   {work.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Volunteering</h2>
+          {RESUME_DATA.volunteering.map((volunteer) => {
+            return (
+              <Card key={volunteer.organization}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <div className="flex items-center gap-x-2">
+                      {'logo' in volunteer && (
+                        <div className={`flex h-8 w-8 items-center justify-center ${
+                          volunteer.organization === "Dolphin Club" ? "bg-[#003366] rounded" : ""
+                        }`}>
+                          <img
+                            src={(volunteer as any).logo.src}
+                            alt={`${volunteer.organization} logo`}
+                            className="max-h-full max-w-full"
+                          />
+                        </div>
+                      )}
+                      <div>
+                        <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                          <a className="hover:underline" href={volunteer.link}>
+                            {volunteer.organization}
+                          </a>
+
+                          <span className="inline-flex gap-x-1">
+                            {volunteer.badges.map((badge) => (
+                              <Badge
+                                variant="secondary"
+                                className="align-middle text-xs"
+                                key={badge}
+                              >
+                                {badge}
+                              </Badge>
+                            ))}
+                          </span>
+                        </h3>
+                        <h4 className="font-mono text-sm leading-none mt-1">
+                          {volunteer.title}
+                        </h4>
+                      </div>
+                    </div>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {volunteer.start} - {volunteer.end}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs">
+                  {volunteer.description}
                 </CardContent>
               </Card>
             );
@@ -159,7 +224,6 @@ export default function Page() {
             );
           })}
         </Section>
-
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
@@ -211,7 +275,13 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none">
-                      {swim.name}
+                      {'link' in swim ? (
+                        <a className="hover:underline" href={swim.link} target="_blank">
+                          {swim.name}
+                        </a>
+                      ) : (
+                        swim.name
+                      )}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {swim.date}
