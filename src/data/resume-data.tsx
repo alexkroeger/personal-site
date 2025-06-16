@@ -58,7 +58,7 @@ export const RESUME_DATA = {
       logo: CircleLogo,
       title: "Senior Software Engineer",
       start: "Feb 2024",
-      end: "Present",
+      end: "Jun 2025",
       description:
         "Software engineer on the special projects team.",
     },
