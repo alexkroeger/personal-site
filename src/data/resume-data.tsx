@@ -170,6 +170,7 @@ export const RESUME_DATA = {
       name: "Dolphin Club Pier 15 Swim",
       date: "June 14, 2025",
       time: "36:50",
+      link: "https://dolphinclub.org/2025/2025-john-nogue-pier-15-swim-for-science/"
     },
     {
       name: "Dolphin Club Alcatraz Swim",
