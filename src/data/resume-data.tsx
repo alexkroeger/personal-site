@@ -167,6 +167,11 @@ export const RESUME_DATA = {
   ],
   swimming: [
     {
+      name: "Dolphin Club Bay Bridge Swim",
+      date: "July 13, 2025",
+      time: "45:38"
+    },
+    {
       name: "Dolphin Club Pier 15 Swim",
       date: "June 14, 2025",
       time: "36:50",
