@@ -18,7 +18,7 @@ export const RESUME_DATA = {
   about:
     "Backend Engineer",
   summary:
-    "I'm a software engineer working at Circle. In my free time you can find me swimming in the San Francisco Bay, birding, or playing chess.",
+    "I'm a software engineer taking some time off. In my free time you can find me swimming in the San Francisco Bay, birding, or playing chess.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13876978?v=4",
   personalWebsiteUrl: "https://alexkroeger.com",
   contact: {
@@ -167,9 +167,16 @@ export const RESUME_DATA = {
   ],
   swimming: [
     {
+      name: "Lake Tahoe True Width",
+      date: "August 5, 2025",
+      time: "6:51:59",
+      link: "https://www.tahoeopenwater.org/results/lake-tahoe-true-width-swim-results/"
+    },
+    {
       name: "Dolphin Club Bay Bridge Swim",
       date: "July 13, 2025",
-      time: "45:38"
+      time: "45:38",
+      link: "https://dolphinclub.org/2025/2025-bay-bridge/"
     },
     {
       name: "Dolphin Club Pier 15 Swim",
