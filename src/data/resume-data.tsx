@@ -16,9 +16,9 @@ export const RESUME_DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/SanFrancisco",
   about:
-    "Backend Engineer",
+    "Software Engineer, EMT",
   summary:
-    "I'm a software engineer taking some time off. In my free time you can find me swimming in the San Francisco Bay, birding, or playing chess.",
+    "I'm a software engineer looking to transition to EMS. In my free time you can find me swimming in the San Francisco Bay, birding, or playing chess.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13876978?v=4",
   personalWebsiteUrl: "https://alexkroeger.com",
   contact: {
