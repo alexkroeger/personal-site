@@ -18,7 +18,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer, EMT",
   summary:
-    "I'm a software engineer looking to transition to EMS. In my free time you can find me swimming in the San Francisco Bay, birding, or playing chess.",
+    "I'm a software engineer looking to change careers. In my free time you can find me swimming in the San Francisco Bay, birding, or playing chess.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13876978?v=4",
   personalWebsiteUrl: "https://alexkroeger.com",
   contact: {
