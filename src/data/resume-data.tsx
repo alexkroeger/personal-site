@@ -179,6 +179,12 @@ export const RESUME_DATA = {
   ],
   swimming: [
     {
+      name: "The City Mile 2026 (1650Y Free)",
+      date: "February 22, 2026",
+      time: "22:48.11",
+      link: "https://www.swimphone.com/meets/event_results.cfm?smid=21438&meid=506870&e=1&s=finals&CFID=4030779&CFTOKEN=70c70c9896929c34-BF057734-9BEA-CCD2-143835D544D69608"
+    },
+    {
       name: "Lake Tahoe True Width",
       date: "August 5, 2025",
       time: "6:51:59",
