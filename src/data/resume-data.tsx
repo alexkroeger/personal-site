@@ -6,7 +6,8 @@ import {
   CoinbaseLogo,
   DolphinClubLogo,
   ZeroXLogo,
-  FedLogo
+  FedLogo,
+  LIFEwestLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -18,7 +19,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer, EMT",
   summary:
-    "I'm a software engineer looking to change careers. In my free time you can find me swimming in the San Francisco Bay, birding, or playing chess.",
+    "I'm currently working as an EMT at LIFEwest ambulance. I previously worked as a software engineer. In my free time you can find me swimming in the San Francisco Bay, birding, or playing chess.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13876978?v=4",
   personalWebsiteUrl: "https://alexkroeger.com",
   contact: {
@@ -51,6 +52,17 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "LIFEwest Ambulance",
+      link: "https://www.lifewestambulance.com/",
+      badges: [],
+      logo: LIFEwestLogo,
+      title: "EMT",
+      start: "Feb 2026",
+      end: "Present",
+      description:
+        "Emergency Medical Technician providing patient transport in the San Francisco Bay Area.",
+    },
     {
       company: "Circle",
       link: "https://www.circle.com/",

@@ -6,6 +6,7 @@ import CoinbaseLogo from "./coinbase_logo.jpeg";
 import DolphinClubLogo from "./Dolphin_Club_Logo_wh.png";
 import ZeroXLogo from "./0x_logo.jpeg";
 import FedLogo from "./federal_reserve_bank_of_new_york_logo.jpeg";
+import LIFEwestLogo from "./lifewest_logo.jpg";
 
 export {
   PhantomLogo,
@@ -15,5 +16,6 @@ export {
   CoinbaseLogo,
   DolphinClubLogo,
   ZeroXLogo,
-  FedLogo
+  FedLogo,
+  LIFEwestLogo
 };
