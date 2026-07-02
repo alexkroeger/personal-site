@@ -172,10 +172,10 @@ export const RESUME_DATA = {
         "Side Project",
         "Node.js",
       ],
-      description: "An automated Twitter feed of rare bird sightings in SF.",
+      description: "An automated feed of rare bird sightings in SF. Formerly on X, until X deprecated their free API tier.",
       link: {
         label: "birds of SF",
-        href: "https://x.com/birdsofSF",
+        href: "https://bsky.app/profile/birdsofsf.bsky.social",
       },
     },
     {
