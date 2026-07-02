@@ -152,6 +152,21 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Lead Pilot Dashboard",
+      techStack: [
+        "Side Project",
+        "Python",
+        "Postgres",
+        "AWS",
+        "JavaScript",
+      ],
+      description: "A dashboard to assist lead pilots with planning organized swims.",
+      link: {
+        label: "lp-dashboard",
+        href: "https://lp-dashboard.alexkroeger.com",
+      },
+    },
+    {
       title: "Birds of SF",
       techStack: [
         "Side Project",
