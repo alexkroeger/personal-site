@@ -160,7 +160,7 @@ export const RESUME_DATA = {
         "AWS",
         "JavaScript",
       ],
-      description: "A dashboard to assist lead pilots with planning organized swims.",
+      description: "A dashboard to assist lead pilots with planning swims in SF Bay.",
       link: {
         label: "lp-dashboard",
         href: "https://lp-dashboard.alexkroeger.com",
