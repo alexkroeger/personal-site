@@ -267,6 +267,25 @@ export default function Page() {
             })}
           </div>
         </Section>
+        {RESUME_DATA.writing.length > 0 && (
+          <Section id="writing" className="print-force-new-page scroll-mb-16">
+            <h2 className="text-xl font-bold">Writing</h2>
+            <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+              {RESUME_DATA.writing.map((piece) => {
+                return (
+                  <ProjectCard
+                    key={piece.title}
+                    title={piece.title}
+                    description={piece.publication}
+                    tags={piece.techStack}
+                    link={"link" in piece ? piece.link.href : undefined}
+                    date={"date" in piece ? piece.date : undefined}
+                  />
+                );
+              })}
+            </div>
+          </Section>
+        )}
         <Section>
           <h2 className="text-xl font-bold">Swimming</h2>
           {RESUME_DATA.swimming.map((swim) => {

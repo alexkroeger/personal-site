@@ -362,4 +362,62 @@ export const RESUME_DATA = {
       },
     },
   ],
+  writing: [
+    {
+      title: "A modest proposal: USDC v3",
+      publication: "Paragraph",
+      date: "January 24, 2022",
+      techStack: [],
+      link: {
+        label: "Article",
+        href: "https://paragraph.com/@alex-kroeger/a-modest-proposal-usdc-v3",
+      },
+    },
+    {
+      title: "DAOs and the Free-rider Problem",
+      publication: "Paragraph",
+      date: "December 21, 2021",
+      techStack: [],
+      link: {
+        label: "Article",
+        href: "https://paragraph.com/@alex-kroeger/daos-and-the-free-rider-problem",
+      },
+    },
+    {
+      title: "The US government as a smart contract",
+      publication: "Paragraph",
+      date: "November 30, 2021",
+      techStack: [],
+      link: {
+        label: "Article",
+        href: "https://paragraph.com/@alex-kroeger/the-us-government-as-a-smart-contract",
+      },
+    },
+    {
+      title: "How to use Dune Analytics like a degen",
+      publication: "Paragraph",
+      date: "November 16, 2021",
+      techStack: [],
+      link: {
+        label: "Article",
+        href: "https://paragraph.com/@alex-kroeger/how-to-use-dune-analytics-like-a-degen",
+      },
+    },
+    {
+      title: "Liquidity miners: hands of 💎 or 🧻?",
+      publication: "Paragraph",
+      date: "November 15, 2021",
+      techStack: [],
+      link: {
+        label: "Article",
+        href: "https://paragraph.com/@alex-kroeger/liquidity-miners-hands-of-or",
+      },
+    },
+  ] as {
+    title: string;
+    publication: string;
+    date: string;
+    techStack: string[];
+    link: { label: string; href: string };
+  }[],
 } as const;
