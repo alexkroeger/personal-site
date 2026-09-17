@@ -152,6 +152,18 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Which ED",
+      techStack: [
+        "Side Project",
+        "React",
+      ],
+      description: "A tool to help Bay Area interfacility transport crews find the closest appropriate ED.",
+      link: {
+        label: "which-ed.org",
+        href: "https://which-ed.org",
+      },
+    },
+    {
       title: "Lead Pilot Dashboard",
       techStack: [
         "Side Project",
